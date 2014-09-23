@@ -9,7 +9,7 @@ return array(
     |
     */
 
-    'app_id' => '713060185412509',
+    'app_id' => $_ENV['FACEBOOK_KEY'],
 
     /*
     |--------------------------------------------------------------------------
@@ -18,7 +18,7 @@ return array(
     |
     */
 
-    'app_secret' => '6f58af3164b744b61d0212e453f40103',
+    'app_secret' => $_ENV['FACEBOOK_SECRET'],
 
     /*
     |--------------------------------------------------------------------------
@@ -29,6 +29,6 @@ return array(
     | for accessing graph on behalf of offline users
     |
     */
-    'app_access_token' => '713060185412509|EOPhTb-35ePLbYkrmYJ3gp4c4gg',
+    'app_access_token' => $_ENV['FACEBOOK_ACCESS_TOKEN'],
 
 );

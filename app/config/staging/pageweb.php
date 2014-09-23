@@ -9,6 +9,6 @@ return [
      * Stripe Key
      * ---------------------------------------------------------------------
      */
-    'stripe_key' => 'sk_test_aQeCBTgNzsbaaG1DvxOOO46r',
-    'stripe_publishable_key' => 'pk_test_fdcqERfCxN5ojaOtyi7lb2tR'
+    'stripe_key' => $_ENV['TEST_STRIPE_KEY'],
+    'stripe_publishable_key' => $_ENV['TEST_STRIPE_PUBLISHABLE_KEY']
 ];

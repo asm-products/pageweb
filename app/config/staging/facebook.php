@@ -1,7 +1,32 @@
 <?php
 
 return array(
-    'app_id' => '607737682642338',
-    'app_secret' => 'b6f070cc7779d86038fddda683deb4aa',
-    'app_access_token' => '607737682642338|EZ4ZNH6h75ydxNrKlUrHOaj2w2Q',
+	    /*
+    |--------------------------------------------------------------------------
+    | Facebook APP ID
+    |--------------------------------------------------------------------------
+    |
+    */
+
+    'app_id' => $_ENV['FACEBOOK_KEY'],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Facebook APP SECRET
+    |--------------------------------------------------------------------------
+    |
+    */
+
+    'app_secret' => $_ENV['FACEBOOK_SECRET'],
+
+    /*
+    |--------------------------------------------------------------------------
+    | Facebook APP Access Token
+    |--------------------------------------------------------------------------
+    |
+    | Access token generated using client credentials that can be used
+    | for accessing graph on behalf of offline users
+    |
+    */
+    'app_access_token' => $_ENV['FACEBOOK_ACCESS_TOKEN'],
 );
