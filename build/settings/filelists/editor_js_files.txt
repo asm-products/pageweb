@@ -1,0 +1,4 @@
+editor/app.js
+editor/services.js
+editor/filters.js
+editor/controllers.js

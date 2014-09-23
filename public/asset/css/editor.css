@@ -1,0 +1,523 @@
+#editor, #editor body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.editor-stretch {
+    height: 100%;
+}
+
+.editor-vertical-box {
+    display: table;
+    border-spacing: 0;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.editor-horizontal-box {
+    display: table;
+    table-layout: fixed;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.editor-aside, .editor-section {
+    display: table-cell;
+    vertical-align: top;
+    height: 100%;
+    float: none;
+    padding: 0 !important;
+}
+
+.editor-side-width {
+    width: 220px;
+}
+
+.editor-border-right {
+    border-right: 1px solid #CCCCCC;
+}
+
+/** Header **/
+#editor-header {
+    border-radius: 0;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    background: #27252B !important;
+    height: 50px;
+    min-height: 50px;
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+
+#editor-header .navbar-header {
+    position: relative;
+}
+
+#editor-header #logo {
+    color: #2CC0EA;
+    font-size: 19px;
+}
+
+#editor-header .site-switcher {
+    width: 160px;
+}
+
+/** End Header **/
+
+#editor-body {
+    position: absolute;
+    top: 50px;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#editor-body-inner {
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+    border-spacing: 0;
+}
+
+#editor-sidebar {
+    background-color: #41586E;
+    width: 80px;
+}
+
+#editor-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#editor-sidebar nav ul li {
+    position: relative;
+    display: block;
+    line-height: 1.5;
+}
+
+#editor-sidebar nav ul li a {
+    position: relative;
+    padding: 0;
+    font-size: 11px;
+    text-align: center;
+    height: 80px;
+    overflow-y: hidden;
+    border: none rgba(255, 255, 255, 0.05);
+    font-weight: bold;
+    display: block;
+}
+
+#editor-sidebar nav ul li a span {
+    width: auto;
+    float: none;
+    display: block;
+    font-size: 19px;
+    margin: 0;
+    line-height: 55px;
+    border: none !important;
+    color: #FFFFFF !important;
+    overflow: visible;
+}
+
+#editor-sidebar nav ul li a b {
+    color: #FFFFFF;
+}
+
+#editor-panel-container {
+    display: table;
+    position: absolute;
+    z-index: 999;
+}
+
+#editor-panel {
+    background: #FFFFFF;
+    display: none;
+
+}
+
+#editor-panel-extended {
+    background: #FFFFFF;
+    display: none;
+}
+
+.editor-panel-open #editor-panel {
+    display: table-cell;
+}
+
+.editor-panel-open #editor-panel-extended {
+    display: table-cell;
+}
+
+.editor-panel-small {
+    width: 300px;
+}
+
+.editor-panel-medium {
+    width: 500px;
+}
+
+.editor-panel-large {
+    width: 800px;
+}
+
+#editor-panel-toggle {
+    background-color: #374B5E;
+    padding: 0 12px;
+    top: auto;
+    z-index: 1000;
+    border-color: #374B5E;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid #CFCFCF;
+    height: 80px;
+}
+
+.editor-toolbox-item.item-theme {
+    background: #FB6B5B;
+}
+
+.editor-toolbox-item.item-theme:hover {
+    background: #DD6756;
+}
+
+.editor-toolbox-item.item-section {
+    background: #FFC333;
+}
+
+.editor-toolbox-item.item-section:hover {
+    background: #E8AE34;
+}
+
+.editor-toolbox-item.item-setting {
+    background: #8EC165;
+}
+
+.editor-toolbox-item.item-setting:hover {
+    background: #78A854;
+}
+
+.editor-toolbox-item.item-addon {
+    background: #65BD77;
+}
+
+.editor-toolbox-item.item-addon:hover {
+    background: #5DB96B;
+}
+
+.editor-toolbox-item.item-subscription {
+    background: #48A75B;
+}
+
+.editor-toolbox-item.item-subscription:hover {
+    background: #42924C;
+}
+
+#editor-panel-toggle i.open {
+    display: inline-block;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+}
+
+.editor-window-expanded {
+    display: none;
+}
+
+#editor-site-preview {
+    position: relative;
+}
+
+#editor-preview-frame {
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+.editor-window-header {
+    background: #FFFFFF;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 10px 20px;
+}
+
+.editor-window-header h3 {
+    color: #000100;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.editor-window-content-wrapper {
+    position: static;
+    height: 100%;
+    width: 100%;
+    display: table-row;
+}
+
+.editor-window-content {
+    position: relative;
+    height: 92%;
+    width: 100%;
+    overflow: auto;
+}
+
+.editor-window-content-inner {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+.editor-fixed-overflow {
+    position: relative;
+    height: 90%;
+    width: 100%;
+    overflow: auto;
+}
+
+.editor-fixed-fill {
+
+}
+
+.editor-window {
+    height: 100%;
+}
+
+.editor-window .row {
+    margin: 0;
+    overflow: auto;
+}
+
+/** Window Styles **/
+.editor-window-content {
+    background: #F7F7F7 /**#F5F5F6**/;
+}
+
+.editor-window-content-inner .container-fluid {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.editor-window-content .input {
+    border-radius: 0;
+}
+
+/** Content section specific styles **/
+#editor-item-content-window .container-fluid {
+    padding: 0;
+}
+
+#editor-item-content-window a.list-group-item {
+    border-width: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #ECECEC;
+    border-top: 1px solid #FFFFFF;
+    border-radius: 0;
+    background-color: transparent;
+    text-decoration: none;
+    position: relative;
+    display: block;
+    padding: 20px 25px;
+    margin-bottom: 0;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+#editor-item-content-window a.list-group-item:hover {
+    background-color: #F5F5F5;
+}
+
+#editor-item-content-window a.list-group-item.opened {
+    background-color: #FEFEFE;
+}
+
+#editor-item-content-window .content-item-icon {
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.content-feeds-item h4 {
+    margin: 0;
+}
+
+.content-feeds-item h4 span {
+    display: block;
+    color: #999999;
+    margin-bottom: 4px;
+    font-size: 12px;
+}
+
+.content-feeds-item p {
+    font-size: 12px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.content-albums-item img {
+    height: 150px;
+    width: 98%;
+}
+
+.content-albums-item img {
+    height: 100px;
+    width: 98%;
+}
+
+/** Some bootstrap extensions **/
+#editor .panel-heading, #editor-panel .panel-footer {
+    position: relative;
+    font-size: 12px;
+}
+
+#editor .panel, .editor-window-content .panel-heading {
+    border-radius: 0;
+    margin: 0;
+}
+
+#editor-panel .panel {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#editor .panel {
+    background-color: #FFFFFF;
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+}
+
+#editor .panel.first {
+    margin-top: 0;
+}
+
+.editor-window-content .panel .panel-title {
+    font-size: 17px;
+}
+
+#editor .btn {
+    border-radius: 1px;
+}
+
+#editor .btn-default {
+    color: #717171 !important;
+    background-color: #FAFAFA;
+    border-color: #DADADA;
+    border-bottom-color: #CCCCCC;
+    -webkit-box-shadow: 0 1px 1px rgba(90, 90, 90, 0.1);
+    box-shadow: 0 1px 1px rgba(90, 90, 90, 0.1);
+}
+
+#editor .btn-primary {
+    color: #FFFFFF !important;
+    background-color: #65BD77;
+    border-color: #65BD77;
+}
+
+#editor label.display-inline {
+    display: inline;
+}
+
+#editor .form-control {
+    border-color: #D9D9D9;
+    border-radius: 2px;
+}
+
+#editor .form-control, .form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#editor .form-control:focus {
+    border-color: #4CC0C1;
+}
+
+/** Backgrounds & Colors  **/
+
+#editor .text-white {
+    color: #FFFFFF;
+}
+
+#editor .bg-primary {
+    background-color: #177BBB;
+    color: #B1E2FF;
+}
+
+#editor .bg-success {
+    background-color: #27D4A8;
+    color: #ACFDE9;
+}
+
+#editor .bg-info {
+    background-color: #72CDCE;
+    color: #DFFFFF;
+}
+
+#editor .bg-warning {
+    background-color: #FFD266;
+    color: #FFF8E6;
+}
+
+#editor .bg-danger {
+    background-color: #FC988D;
+    color: #FFFFFF;
+}
+
+#editor .bg-danger {
+    background-color: #27D4A8;
+    color: #ACFDE9;
+}
+
+#editor .bg-gray {
+    background-color: #C8C8C8;
+    color: #5E5F63;
+}
+
+#editor .bg-gray-lighter {
+    background-color: #E5E9EC !important;
+    color: #62707D !important;
+}
+
+#editor .bg-gray-lighter-lighten {
+    background-color: #F4F5F7 !important;
+    color: #62707D !important;
+}
+
+#editor .bg-white {
+    background-color: #FFFFFF;
+    color: #5E5F63;
+}
+
+/** Utils **/
+#editor .icon-3x {
+    font-size: 3em;
+}
+
+#editor .margin-bottom-sm {
+    margin-bottom: 5px;
+}
+
+#editor .margin-bottom-md {
+    margin-bottom: 10px;
+}
+
+#editor .margin-bottom-lg {
+    margin-bottom: 20px;
+}
+
+#editor .no-border {
+    border: 0;
+}
+
+#editor .no-border {
+    border-radius: 0;
+}

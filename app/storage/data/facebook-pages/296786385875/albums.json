@@ -1,0 +1,173 @@
+[
+    {
+        "name": "albums",
+        "fql_result_set": [
+            {
+                "object_id": 442072835875,
+                "name": "Profile Pictures",
+                "description": "",
+                "type": "profile",
+                "cover_object_id": "10150981145305876",
+                "photo_count": 2
+            },
+            {
+                "object_id": "10150565725825876",
+                "name": "Cover Photos",
+                "description": "",
+                "type": "cover",
+                "cover_object_id": "10150565725830876",
+                "photo_count": 1
+            },
+            {
+                "object_id": 414358315875,
+                "name": "Netaviva Associate Program",
+                "description": "",
+                "type": "normal",
+                "cover_object_id": "414358665875",
+                "photo_count": 1
+            },
+            {
+                "object_id": 391721550875,
+                "name": "Timeline Photos",
+                "description": "",
+                "type": "wall",
+                "cover_object_id": "391721555875",
+                "photo_count": 1
+            },
+            {
+                "object_id": 376674065875,
+                "name": "Business Plan",
+                "description": "Business Plan Photos",
+                "type": "normal",
+                "cover_object_id": "376674410875",
+                "photo_count": 8
+            }
+        ]
+    },
+    {
+        "name": "albums_cover_photo",
+        "fql_result_set": [
+            {
+                "object_id": "10150981145305876",
+                "album_object_id": 442072835875,
+                "src_big": "https://scontent-b.xx.fbcdn.net/hphotos-frc3/t1.0-9/418819_10150981145305876_557137048_n.jpg"
+            },
+            {
+                "object_id": "10150565725830876",
+                "album_object_id": "10150565725825876",
+                "src_big": "https://scontent-b.xx.fbcdn.net/hphotos-frc3/t1.0-9/424857_10150565725830876_432810868_n.jpg"
+            },
+            {
+                "object_id": 414358665875,
+                "album_object_id": 414358315875,
+                "src_big": "https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-ash2/t1.0-9/38738_414358665875_3921479_n.jpg"
+            },
+            {
+                "object_id": 391721555875,
+                "album_object_id": 391721550875,
+                "src_big": "https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-ash2/t1.0-9/30112_391721555875_5081599_n.jpg"
+            },
+            {
+                "object_id": 376674410875,
+                "album_object_id": 376674065875,
+                "src_big": "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-frc3/t1.0-9/24920_376674410875_1653015_n.jpg"
+            }
+        ]
+    },
+    {
+        "name": "albums_photos",
+        "fql_result_set": [
+            {
+                "object_id": "10150981145305876",
+                "album_object_id": 442072835875,
+                "caption": "",
+                "created": 1346071575,
+                "src_big": "https://scontent-b.xx.fbcdn.net/hphotos-frc3/t1.0-9/418819_10150981145305876_557137048_n.jpg"
+            },
+            {
+                "object_id": 296909825875,
+                "album_object_id": 442072835875,
+                "caption": "",
+                "created": 1265716585,
+                "src_big": "https://fbcdn-sphotos-d-a.akamaihd.net/hphotos-ak-prn1/t1.0-9/18856_296909825875_725009_n.jpg"
+            },
+            {
+                "object_id": "10150565725830876",
+                "album_object_id": "10150565725825876",
+                "caption": "",
+                "created": 1331226883,
+                "src_big": "https://scontent-b.xx.fbcdn.net/hphotos-frc3/t1.0-9/424857_10150565725830876_432810868_n.jpg"
+            },
+            {
+                "object_id": 414358665875,
+                "album_object_id": 414358315875,
+                "caption": "",
+                "created": 1280759463,
+                "src_big": "https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-ash2/t1.0-9/38738_414358665875_3921479_n.jpg"
+            },
+            {
+                "object_id": 391721555875,
+                "album_object_id": 391721550875,
+                "caption": "Free SMS Alerts of all your activities on Netaviva now available. Get to know who sent you messages, viewed your profile, commented on your status, commented on your blog, commented on your business plan and many more without logging in all through sms alerts. Click here for details. http://www.netaviva.com/sms/settings/",
+                "created": 1273938196,
+                "src_big": "https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-ash2/t1.0-9/30112_391721555875_5081599_n.jpg"
+            },
+            {
+                "object_id": 376674410875,
+                "album_object_id": 376674065875,
+                "caption": "Creating a business plan page",
+                "created": 1269093202,
+                "src_big": "https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-frc3/t1.0-9/24920_376674410875_1653015_n.jpg"
+            },
+            {
+                "object_id": 376674415875,
+                "album_object_id": 376674065875,
+                "caption": "Creating a business plan page stage 1",
+                "created": 1269093202,
+                "src_big": "https://scontent-b.xx.fbcdn.net/hphotos-frc3/t1.0-9/24920_376674415875_5208306_n.jpg"
+            },
+            {
+                "object_id": 376674420875,
+                "album_object_id": 376674065875,
+                "caption": "Creating a business plan page stage 2",
+                "created": 1269093202,
+                "src_big": "https://scontent-a.xx.fbcdn.net/hphotos-ash2/t1.0-9/24920_376674420875_2718083_n.jpg"
+            },
+            {
+                "object_id": 376675340875,
+                "album_object_id": 376674065875,
+                "caption": "Creating a business plan page stage 3",
+                "created": 1269093516,
+                "src_big": "https://scontent-a.xx.fbcdn.net/hphotos-ash2/t1.0-9/24920_376675340875_3376003_n.jpg"
+            },
+            {
+                "object_id": 376675345875,
+                "album_object_id": 376674065875,
+                "caption": "Creating a business plan page stage 4",
+                "created": 1269093516,
+                "src_big": "https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-ash2/t1.0-9/24920_376675345875_4762742_n.jpg"
+            },
+            {
+                "object_id": 376675350875,
+                "album_object_id": 376674065875,
+                "caption": "Creating a business plan page stage 5",
+                "created": 1269093516,
+                "src_big": "https://scontent-b.xx.fbcdn.net/hphotos-frc3/t1.0-9/24920_376675350875_1571120_n.jpg"
+            },
+            {
+                "object_id": 376675355875,
+                "album_object_id": 376674065875,
+                "caption": "Creating a business plan page stage 6",
+                "created": 1269093516,
+                "src_big": "https://scontent-b.xx.fbcdn.net/hphotos-frc3/t1.0-9/24920_376675355875_6728065_n.jpg"
+            },
+            {
+                "object_id": 376675360875,
+                "album_object_id": 376674065875,
+                "caption": "Creating a business plan page stage 7",
+                "created": 1269093516,
+                "src_big": "https://scontent-b.xx.fbcdn.net/hphotos-frc3/t1.0-9/24920_376675360875_1032344_n.jpg"
+            }
+        ]
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "category": "Computers/internet website",
+        "name": "Xmlprov",
+        "access_token": "CAAJkYPeJikUBAF5D9q9i6ZBxfZC9eF5FTRFhKjUe3HZBaFKKHgSgZBIAUqtx5YCXo5Bm",
+        "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+        ],
+        "id": "184944074924281"
+    },
+    {
+        "category": "Product/service",
+        "name": "Contactly",
+        "access_token": "CAAJkYPeJikUBAF5D9q9i6ZBxfZC9eF5FTRFhKjUe3HZBaFKKHgSgZBIAUqtx5YCXo5Bm",
+        "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+        ],
+        "id": "206758826147180"
+    },
+    {
+        "category": "Professional services",
+        "name": "Netaviva",
+        "access_token": "CAACEdEose0cBAFfo9sRqSkGlUGPPQSLqsmRywBTZB3sZC7cFA58UDax9BsFlk4H5oX3O6ZCQQZCbFAx5sgniHvoLIYRZCtjr0wJOw6QixOflPZBHSqfaUQkCMZAhTWVXE58u1UWn0dylnWWick56cvBKkxDpvdYHjaYUKUVXXQwOh1FyZAkrLbCESreYZC5IeJiQZD",
+        "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+        ],
+        "id": "296786385875"
+    },
+    {
+        "category": "Product/service",
+        "name": "Close Up",
+        "access_token": "CAACEdEose0cBAFfo9sRqSkGlUGPPQSLqsmRywBTZB3sZC7cFA58UDax9BsFlk4H5oX3O6ZCQQZCbFAx5sgniHvoLIYRZCtjr0wJOw6QixOflPZBHSqfaUQkCMZAhTWVXE58u1UWn0dylnWWick56cvBKkxDpvdYHjaYUKUVXXQwOh1FyZAkrLbCESreYZC5IeJiQZD",
+        "perms": [
+            "ADMINISTER",
+            "EDIT_PROFILE",
+            "CREATE_CONTENT",
+            "MODERATE_CONTENT",
+            "CREATE_ADS",
+            "BASIC_ADMIN"
+        ],
+        "id": "172998826075468"
+    }
+]

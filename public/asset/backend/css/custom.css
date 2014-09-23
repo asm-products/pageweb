@@ -1,0 +1,87 @@
+/**
+ *
+ * Apply Here your Custom CSS
+ *
+*/
+
+/*Pricing Plans */
+.plan {
+    background: #eef1f3;
+    padding: 0 0 10px 0;
+    margin: 40px 0px;
+    list-style: none;
+    text-align: center;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+    -webkit-transition: all 0.3s ease;
+       -moz-transition: all 0.3s ease;
+         -o-transition: all 0.3s ease;
+            transition: all 0.3s ease;
+}
+
+.plan:hover {
+    -webkit-transform: scale(1.1);
+       -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+         -o-transform: scale(1.1);
+            transform: scale(1.1);
+}
+
+.plan li {
+    padding: 10px 0px;
+    color: #939799;
+    border-top: 1px dashed #d3d7d9;
+}
+
+.plan li.plan-name {
+    padding: 15px 0px;
+    background-color: #434749;
+    color: #f3f7f9;
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 300;
+    border: none;
+    -webkit-border-radius: 3px;
+       -moz-border-radius: 3px;
+            border-radius: 3px;
+    -webkit-border-bottom-left-radius: 0px;
+       -moz-border-bottom-left-radius: 0px;
+            border-bottom-left-radius: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+       -moz-border-bottom-right-radius: 0px;
+            border-bottom-right-radius: 0px;
+}
+
+.plan li.plan-price {
+    padding: 25px 0px;
+    background-color: #e3e7e9;
+    color: #838789;
+    border: none;
+}
+
+.plan li strong {
+    color: #555;
+    font-weight: 600;
+}
+
+.plan li.plan-price strong {
+    color: #fe4444;
+    font-size: 22px;
+}
+
+.plan .plan-action .btn {
+    margin: 10px 0 0 0;
+    background-color: transparent;
+    border-color: #b3b7b9;
+}
+
+.plan:hover .plan-action .btn {
+    background-color: #f59505;
+    border-color: #f59505;
+}
+
+.plan:hover .plan-action .btn:hover {
+    background-color: #faa422;
+    border-color: #faa422;
+}

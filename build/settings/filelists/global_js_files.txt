@@ -1,0 +1,15 @@
+jquery-1.11.0.min.js
+modernizr/modernizr.js
+jquery.cookie.js
+jquery.ui.min.js
+bootstrap.min.js
+angular/angular.js
+angular/angular-cookies.js
+angular/angular-resource.js
+angular/angular-route.js
+angular/angular-sanitize.js
+angular/angular-animate.js
+common/helpers.js
+common/filters.js
+common/interceptors.js
+common/directives.js

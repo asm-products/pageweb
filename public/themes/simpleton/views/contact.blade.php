@@ -1,0 +1,1 @@
+{{ $site->getTitle() }} CONTACT PAGE

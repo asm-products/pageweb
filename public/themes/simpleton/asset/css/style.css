@@ -1,0 +1,38 @@
+.navbar-form input, .form-inline input {
+    width: auto;
+}
+
+body {
+    padding-top: 50px;
+}
+
+.panel {
+    border-color: transparent;
+    border-radius: 0;
+}
+
+.panel .lead {
+    overflow: hidden;
+    height: 60px;
+}
+
+#footer {
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #EDEDED;
+}
+
+#mast-header {
+    min-height: 199px;
+}
+
+#mast-header h1 {
+    font-size: 55px;
+    line-height: 1;
+    margin-top: 50px;
+}
+
+#mast-header .lead {
+    margin-top: 10px;
+}

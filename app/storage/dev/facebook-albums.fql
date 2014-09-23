@@ -1,0 +1,5 @@
+{
+"albums":"SELECT object_id, name, description, type, cover_object_id, photo_count, type FROM album WHERE owner='172998826075468'",
+"albums_cover_photo":"SELECT object_id, album_object_id, src_big FROM photo WHERE object_id IN (SELECT cover_object_id FROM #albums)",
+"albums_photos":"SELECT object_id, album_object_id, caption, created, src_big FROM photo WHERE album_object_id IN (SELECT object_id FROM #albums)"
+}

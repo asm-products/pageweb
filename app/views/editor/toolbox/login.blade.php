@@ -1,0 +1,1 @@
+You need to be <a href="{{ URL::route('login') }}">Logged In</a> to do this.

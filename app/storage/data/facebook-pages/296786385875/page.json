@@ -1,0 +1,24 @@
+{
+    "id": "296786385875",
+    "username": "netaviva",
+    "name": "Netaviva",
+    "category": "Professional services",
+    "link": "https://www.facebook.com/netaviva",
+    "access_token": "CAACEdEose0cBAGItMj84nO16lqXtcfvrZBKc7FEJtghWNgTVMAEJLy95lJd6c1qEbEm10WXIQWiYRubcVk2QLeM8809lcQXM0sWlHhxDVYnr7XCoHCRC8NKLPsyl43y4A3v1YTcZBoqtIHWEOi6VvbIRxpucZAGP8QslMlM8PbDGedH7kZAR42eZBwgHpGXTaZBb4zlDHquQZDZD",
+    "location": {
+        "street": "6th Floor, Herbert Macaulay Way, Sabo, Yaba",
+        "zip": "234"
+    },
+    "phone": "08027181080",
+    "emails": [
+        "info@netaviva.net"
+    ],
+    "picture": {
+        "data": {
+            "url": "https://fbcdn-profile-a.akamaihd.net/hprofile-ak-frc3/t1.0-1/418819_10150981145305876_557137048_n.jpg",
+            "width": 200,
+            "height": 200,
+            "is_silhouette": false
+        }
+    }
+}

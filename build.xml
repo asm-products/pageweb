@@ -1,0 +1,46 @@
+<project name="PageWeb" default="build">
+
+    <property name="programs.uglifyjs" value="C:\nodejs\node_modules\.bin\uglifyjs.cmd"/>
+    <property name="build.dir.scripts" value="build/javascript"/>
+    <property name="build.dir.styles" value="build/styles"/>
+    <property name="build.dir.settings.filelist" value="build/settings/filelists"/>
+    <property name="dist.dir.styles" value="public/asset/css"/>
+    <property name="dist.dir.scripts" value="public/asset/js"/>
+    <property name="dist.dir.scripts.application" value="public/asset/js/application"/>
+
+
+    <target name="build:init">
+        <mkdir dir="build/javascript"/>
+    </target>
+
+    <target name="build:minifyGlobalScript" depends="build:init">
+        <append destFile="${build.dir.scripts}/global.js">
+            <filelist dir="${dist.dir.scripts}" listfile="${build.dir.settings.filelist}/global_js_files.txt"/>
+        </append>
+        <exec command="${programs.uglifyjs} global.js -m -c -o global.min.js" dir="${build.dir.scripts}"/>
+        <delete file="${build.dir.scripts}/global.js"/>
+        <copy overwrite="true" file="${build.dir.scripts}/global.min.js"
+              tofile="${dist.dir.scripts.application}/global.min.js"/>
+    </target>
+
+    <target name="build:minifyEditorScript">
+        <append destFile="${build.dir.scripts}/editor.js">
+            <filelist dir="${dist.dir.scripts}" listfile="${build.dir.settings.filelist}/editor_js_files.txt"/>
+        </append>
+        <exec command="${programs.uglifyjs} editor.js -m -c -o editor.min.js" dir="${build.dir.scripts}"/>
+        <delete file="${build.dir.scripts}/editor.js"/>
+        <copy overwrite="true" file="${build.dir.scripts}/editor.min.js"
+              tofile="${dist.dir.scripts.application}/editor.min.js"/>
+    </target>
+
+    <target name="build:clean">
+        <delete dir="${build.dir.scripts}"/>
+    </target>
+
+    <target name="build">
+        <phingcall target="build:minifyGlobalScript"/>
+        <phingcall target="build:minifyEditorScript"/>
+        <phingcall target="build:clean"/>
+    </target>
+
+</project>
